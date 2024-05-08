@@ -14,9 +14,9 @@ public class YoshHisoblagich {
 		int oy = sc.nextInt();
 		System.out.print("Tug'ilgan kunni kiriting: ");
 		int kun = sc.nextInt();
-		LocalDate lc = LocalDate.of(yil, oy, kun);
+		LocalDate date = LocalDate.of(yil, oy, kun);
 		LocalDate lcd = LocalDate.now();
-		System.out.println("Yosh=" + agecalculate(lc, lcd));
+		System.out.println("Yosh=" + agecalculate(date, lcd));
 
 	}
 
